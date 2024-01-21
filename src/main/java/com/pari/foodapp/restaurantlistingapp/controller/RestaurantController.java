@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin // to allow angular running different port num to call 9090
 public class RestaurantController {
 
     @Autowired
